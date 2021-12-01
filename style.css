@@ -1,0 +1,485 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navigation,
+#portfolioTxt {
+    font-family: 'ARS Maquette Pro';
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item .nav-link.active {
+    color: #56c0c0;
+}
+
+#portfolioTxt {
+    margin-left: 7.5rem !important;
+}
+
+.navigation {
+    border-bottom: 0.5px solid #424242;
+    background-color: #171819;
+}
+
+#portfolioTxt {
+    margin-left: 9%;
+    padding-top: 10px;
+    font-size: 2.2em;
+}
+
+nav {
+    width: 100%;
+    margin-right: 9%;
+}
+
+.nav-item a {
+    color: #fff;
+    margin: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-item a:hover {
+    color: #56c0c0;
+}
+
+.main-area {
+    background-color: #171819;
+    height: 90vh;
+}
+
+.banner-txt {
+    margin-left: 8%;
+}
+
+#line1 {
+    color: #fff;
+    font-family: 'ARS Maquette Pro';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 25px;
+}
+
+#line2 {
+    color: #56c0c0;
+    font-family: 'ARS Maquette Pro';
+    font-weight: 800;
+    font-style: normal;
+    font-size: 5rem;
+    line-height: 70px;
+}
+
+.btn-contact {
+    background-color: #56c0c0;
+    border: 0px;
+    color: #fff;
+    font-family: 'ARS Maquette Pro';
+    font-style: normal;
+    font-size: 1em;
+    font-weight: 550;
+    margin: 25px 10px;
+    padding: 10px 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.btn-contact:before,
+.btn-contact:after {
+    border: 0px solid #56c0c0;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    content: "";
+    margin: -0.5px;
+    height: 24px;
+    position: absolute;
+    width: 24px;
+}
+
+.btn-contact:before {
+    border-left-width: 2.3px;
+    border-top-width: 2.3px;
+    left: -5px;
+    top: -5px;
+}
+
+.btn-contact:after {
+    border-bottom-width: 2.3px;
+    border-right-width: 2.3px;
+    bottom: -5px;
+    right: -5px;
+}
+
+.btn-contact:hover:before,
+.btn-contact:hover:after {
+    height: 100%;
+    width: 100%;
+}
+
+.square {
+    height: 400px;
+    width: 370px;
+    border: 5px solid #56c0c0;
+    border-radius: 20px;
+    float: right;
+    margin-right: 15%;
+    top: 20%;
+    position: relative;
+}
+
+.heroArea {
+    margin-top: 5%;
+}
+
+.heroimg img {
+    width: 390px;
+    height: 420px;
+    position: absolute;
+    bottom: 17.5%;
+    border-radius: 20px;
+    right: 10%;
+}
+
+.about-bg img {
+    height: 110px;
+    width: 340px;
+    margin-top: 3%;
+    position: relative;
+    left: 50%;
+    opacity: 0.35;
+    transform: translateX(-50%);
+    border: none;
+}
+
+.about-txt {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -160%);
+    font-family: 'ARS Maquette Pro';
+    font-style: normal;
+    font-size: 2.3rem;
+    color: #56c0c0;
+    font-weight: 600;
+}
+
+.texts {
+    font-family: 'ARS Maquette Pro';
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 1.1rem; */
+    margin-top: 10px;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.frame {
+    width: 100px;
+    height: 100px;
+    /* margin-top: 1%; */
+    margin-left: 17%;
+    position: relative;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.heroimg2 {
+    position: absolute;
+    left: 18%;
+    margin-top: 3%;
+    /* box-shadow: 5px 5px 5px #171819; */
+    border-radius: 20px;
+    border: 1px solid #d1d1d1;
+    opacity: 0.9;
+    width: 320px;
+    height: 375px;
+}
+
+.f2 {
+    position: absolute;
+    margin-top: 26%;
+    z-index: 1;
+    left: 19%;
+    background: transparent;
+}
+
+.btn-cv {
+    padding: 10px 15px;
+    outline: none;
+    color: #56c0c0;
+    font-family: 'ARS Maquette Pro';
+    font-style: normal;
+    font-weight: 550;
+    background: linear-gradient(to left, transparent 50%, #56c0c0 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: all 0.5s ease;
+    border: 1px solid #56c0c0;
+    margin-top: 4%;
+    border-radius: 7px;
+    margin-bottom: 2%;
+}
+
+.btn-cv:hover {
+    background-position: left;
+    color: white;
+}
+
+.personal-info {
+    text-align: center;
+}
+
+.socials {
+    text-align: center;
+    justify-content: space-around;
+    font-size: 22px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #56c0c0;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-linkedin,
+.fa-twitter {
+    width: 35px;
+    border: 1px solid #56c0c0;
+    padding: 5px;
+    margin: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.fa-twitter:hover {
+    background-color: #56c0c0;
+    transition: all 0.4s;
+    color: white;
+    text-decoration: none;
+}
+
+.txt-freelance {
+    font-family: 'ARS Maquette Pro';
+    font-style: normal;
+    font-weight: 600;
+    color: #171819;
+}
+
+.progress {
+    border-radius: 10px;
+    width: 95%;
+    height: 12px;
+}
+
+.p-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-tabs li {
+    color: #171819;
+    font-family: 'ARS Maquette Pro';
+    font-style: normal;
+    font-weight: 550;
+    list-style-type: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 5px 15px;
+}
+
+.p-tabs li.active {
+    color: #56c0c0;
+}
+
+.p-tabs li:hover {
+    color: #56c0c0;
+    transition: 0.2s all;
+}
+
+.p-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-images img {
+    width: 280px;
+    height: 230px;
+    margin: 7px 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.service-card {
+    text-align: center;
+    font-family: 'ARS Maquette Pro';
+    font-style: normal;
+    width: 20rem;
+    height: 12rem;
+    margin: 0 auto;
+    margin-bottom: 15%;
+    cursor: pointer;
+    margin-top: 3%;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.service-card:hover {
+    border-bottom: 12rem solid #56c0c0;
+    color: white;
+}
+
+.service-card:hover i {
+    color: white;
+}
+
+.service-card i {
+    font-size: 26px;
+    margin-top: 2%;
+    color: #56c0c0;
+}
+
+.card-title {
+    margin-top: 3%;
+    font-weight: 500;
+}
+
+.card-text {
+    text-align: justify;
+    margin-top: 2%;
+    font-size: 15px;
+    margin-bottom: 12%;
+}
+
+.txt-area {
+    resize: none;
+    height: 100px;
+}
+
+.card-contact {
+    width: 60rem;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'ARS Maquette Pro';
+    font-style: normal;
+    margin-top: 2%;
+    padding: 20px;
+    margin-bottom: 3%;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.form-floating .form-control {
+    border-radius: 0px;
+    background-color: #f8f9fa;
+    font-size: 15px;
+    border: none;
+    margin-top: 2%;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-floating textarea:focus {
+    border-color: rgba(126, 239, 104, 0.8);
+    box-shadow: 0 0px 3px 1px rgba(0, 0, 0, 0.2);
+    outline: 0 none;
+}
+
+.form-floating input:focus {
+    border-color: rgba(126, 239, 104, 0.8);
+    box-shadow: 0 0px 3px 1px rgba(0, 0, 0, 0.2);
+    outline: 0 none;
+}
+
+.btn-submit {
+    margin-top: 4%;
+    padding: 7px 13px;
+    border: none;
+    outline: none;
+    background-color: #171819;
+    color: white;
+}
+
+.btn-submit:hover {
+    background-color: #56c0c0;
+    transition: all 0.4s;
+    color: white;
+}
+
+footer {
+    background-color: #171819;
+    color: #fff;
+}
+
+footer p {
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+
+.f-icons .fa-envelope {
+    padding: 11px;
+}
+
+.f-icons i {
+    font-size: 26px;
+    border: 1px solid #56c0c0;
+    width: 50px;
+    padding: 13px 0px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #56c0c0;
+}
+
+.round-icon a {
+    text-decoration: none;
+    color: white;
+}
+
+.round-icon i {
+    width: 36px;
+    text-align: center;
+    height: 36px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #fff;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-bottom: 2%;
+}
+
+.round-icon i:hover {
+    background-color: #56c0c0;
+}
+
+
+/* 
+.btn-cv {
+    background: linear-gradient(to left, transparent 50%, #52A5A9 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: all 0.5s ease;
+    padding: 10px 15px;
+    background-color: #fff;
+    font-family: 'ARS Maquette Pro';
+    font-style: normal;
+    color: #52A5A9;
+    font-weight: 550;
+    outline: none;
+    border: 1px solid #52A5A9;
+    margin-top: 12px;
+    border-radius: 7px;
+} */
